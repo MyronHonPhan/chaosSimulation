@@ -8,6 +8,7 @@ rho = 28;
 
 % initial condition
 y0 = [-8;8;27];
+epislon = .01*y0;
 
 % compute trajectory
 dt = .01;
